@@ -1,0 +1,5 @@
+{
+    "Login Using Valid Credentials": {"username":"amit@gmail.com", "password":"1234", "expected": "http://192.168.0.133:3000/dashboard"},
+    "Login Using Invalid Credentials": {"username":"srigsad", "password":"sri1234dsfads", "expected": "Entered Credentials are not Valid"},
+    "Login Using Null Credentials": {"username":"", "password":"", "expected": "Entered Credentials are not Valid"}
+}

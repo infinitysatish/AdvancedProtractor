@@ -1,0 +1,31 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "E2E Automation Testing for Self Service Portal",
+  "main": "protractor.conf.js",
+  "scripts": {
+    "test": "protractor ConvertedJSFiles/protractor.conf.js",
+    "pretest": "npm run tsc",
+    "tsc": "tsc",
+    "start": "webdriver-manager start",
+    "prestart": "webdriver-manager update"
+  },
+  "keywords": [
+    "SSP",
+    "Self Service Portal",
+    "Self Service"
+  ],
+  "author": "satish",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine-data-provider": "^2.2.0",
+    "load-json-file": "^4.0.0",
+    "protractor": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.8.6",
+    "@types/jasminewd2": "^2.0.3",
+    "@types/require-dir": "^0.3.0",
+    "protractor-beautiful-reporter": "^1.2.1"
+  }
+}
