@@ -4,8 +4,8 @@ var path = require("path");
 
 exports.config = {
   // directConnect:true,
-  // seleniumServerJar: '../node_modules/protractor/node_modules/webdriver-manager/selenium/selenium-server-standalone-3.9.1.jar',
-  seleniumAddress: "http://localhost:4444/wd/hub",
+   seleniumServerJar: '../node_modules/protractor/node_modules/webdriver-manager/selenium/selenium-server-standalone-3.9.1.jar',
+  //seleniumAddress: "http://localhost:4444/wd/hub",
   seleniumPort: null,
   // chromeDriver: '../node_modules/protractor/node_modules/webdriver-manager/selenium/chromedriver_2.35.exe',
   // FirefoxDriver: '../node_modules/protractor/node_modules/webdriver-manager/selenium/geckodriver-v0.19.1.exe',
