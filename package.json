@@ -17,6 +17,10 @@
   ],
   "author": "satish",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/infinitysatish/automation.git"
+  },
   "dependencies": {
     "jasmine-data-provider": "^2.2.0",
     "load-json-file": "^4.0.0",
